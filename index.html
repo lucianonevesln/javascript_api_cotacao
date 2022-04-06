@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Escolha a Moeda</h2>
+    <form action="script.js" id="id_form" method="post">
+        <label for="">USD-BRL</label><input type="radio" name="id_moeda" id="id_moeda_usd" value="usd-brl" checked><br><br>
+        <label for="">EUR-BRL</label><input type="radio" name="id_moeda" id="id_moeda_eur" value="eur-brl"><br><br>
+        <label for="">BTC-BRL</label><input type="radio" name="id_moeda" id="id_moeda_btc" value="btc-brl"><br><br>
+        <input type="submit" value="Enter" id="id_submit"> 
+    </form><br>
+
+    <table border="1" id="tabela_cotacao" style="display: none">
+        <thead>
+            <tr>
+                <th style="background-color: darkgrey;">Descricao</th>
+                <th style="background-color: darkgrey;">Informacao</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr><th style="text-align: left">Venda</th><th id="ask"></th></tr>
+            <tr><th style="text-align: left">Compra</th><th id="bid"></th></tr>
+            <tr><th style="text-align: left">Codigo</th><th id="code"></th></tr>
+            <tr><th style="text-align: left">Codigo Interno</th><th id="codein"></th></tr>
+            <tr><th style="text-align: left">Data da Consulta</th><th id="create_date"></th></tr>
+            <tr><th style="text-align: left">Valor Maximo</th><th id="high"></th></tr>
+            <tr><th style="text-align: left">Valor Minimo</th><th id="low"></th></tr>
+            <tr><th style="text-align: left">Nome</th><th id="name"></th></tr>
+            <tr><th style="text-align: left">Porcentagem de Variacao</th><th id="pctChange"></th></tr>
+            <tr><th style="text-align: left">Variacao</th><th id="varBid"></th></tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
