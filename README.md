@@ -21,8 +21,8 @@
 
 ### Passo 1: o usuário escolhe uma das 3 opções de moeda
 
-![alt text]()
+![alt text](https://github.com/lucianonevesln/javascript_api_cotacao/blob/main/img0.png)
 
 ### Passo 2: observe o retorno dos valores associados a moeda definida
 
-![alt text]()
+![alt text](https://github.com/lucianonevesln/javascript_api_cotacao/blob/main/img1.png)
